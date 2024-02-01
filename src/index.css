@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+  background-color: rgb(199, 216, 240);
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+}
+
+.photos{
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 100%;
+  position: absolute;
+  top: -50px;
+  left: 20px;
+}
+
+.circle{
+  width: 130px;
+  height: 130px;
+  background-color: rgb(104, 104, 213);
+  border-radius: 100%;
+  position: absolute;
+  top: -55px;
+  left: 33px;
+}
+
+.title{
+  font-size: 28px;
+  font-weight:900;
+}
+
+.hading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:5px;
+}
+
+.line{
+  height: 4px;
+  background-color: rgb(118, 118, 190);
+  width: 10%;
+}
+
+.box{
+  width: 40%;
+  margin-inline:auto;
+  background-color: white;
+  padding-inline: 40px;
+  margin-top: 40px;
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+.dostname{
+  font-size: 22px;
+  padding-block:10px;
+}
+.dostjob{
+  color: rgb(120, 120, 208);
+}
+.quotes{
+  margin-block: 10px;
+  color: rgb(118, 118, 190);
+}
+.dostline{
+  color: rgb(47, 47, 55);
+}
+.box-content{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:50px;
+}
+
+.leftright{
+  display: flex;
+  margin-top: 25px;
+  gap:40px;
+}
+
+.leftbtn{
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: rgb(93, 93, 129);
+  cursor: pointer;
+}
+
+.rightbtn
+{
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: rgb(93, 93, 129);
+  cursor: pointer;
+  
+}
+
+.btns{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+
+.surpriseme{
+  border: none;
+  padding: 9px 16px;
+  background-color: rgb(124, 63, 204);
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
